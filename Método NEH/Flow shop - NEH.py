@@ -2,7 +2,7 @@ import numpy as np
 from scheptk.scheptk import FlowShop
 
 # Carrega a instânciak
-instance = FlowShop('C:/Users/atila/OneDrive/Área de Trabalho/VScode - Flow shop/Instâncias/P1.txt')
+instance = FlowShop('P1.txt')
 num_jobs = instance.jobs
 num_machines = instance.machines
 
