@@ -6,11 +6,8 @@ from scheptk.scheptk import FlowShop
 instance = FlowShop('P1.txt')
 
 # Função para calcular o makespan
-
-
 def makespan(seq):
     return instance.Cmax(seq)
-
 
 # Parâmetro de tempo
 tempo_limite = 60
