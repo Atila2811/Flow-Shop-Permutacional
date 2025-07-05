@@ -108,7 +108,7 @@ def iterated_greedy(flowshop, d=4, T=0.4, tempo_max=60):
                 melhor = sequencia_atual[:]
                 melhor_cmax = flowshop.Cmax(melhor)
 
-        iteracao += 1
+        iteracao += 100
 
         # Log de progresso
         print(f"Iteração {iteracao:>3}: Makespan = {flowshop.Cmax(sequencia_atual)} | Sequência = {sequencia_atual}")
